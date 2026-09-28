@@ -1,0 +1,18 @@
+# Telegram client and proxy support
+Telethon==1.45.0
+python-socks==3.1.1
+
+# Environment configuration
+python-dotenv==1.2.3
+
+# Voice download, conversion, and speech recognition
+SpeechRecognition==3.17.0
+pydub==0.25.1
+audioop-lts==0.2.2
+# FFmpeg is a system dependency and must be installed separately.
+# It is required by pydub to convert Telegram OGG voice messages.
+
+# LLM integrations
+openai==2.8.0
+httpx==0.28.1
+google-genai>=1.0.0,<2.0.0

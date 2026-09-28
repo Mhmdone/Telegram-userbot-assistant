@@ -1,0 +1,32 @@
+# Environment files and secrets
+.env
+*.env
+!.env.example
+
+# Telegram authentication sessions
+*.session
+
+# Local database
+*.db
+
+# Temporary downloaded files
+voice_downloads/
+pdf_downloads/
+converted_message.wav
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Local virtual environment
+telbotenv/
+venv/
+.venv/
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
